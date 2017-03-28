@@ -1,0 +1,10 @@
+Line answers
+1. I used an array that allows a user to add or search or remove people from the line,
+    it also allows them to find the front back or middle of the line.
+2. You could use the search functionality with the name as the parameter.
+3. Could be used anytime you want to edit an ordered list.
+
+Pixel Answers
+1. It is much like a hash with a key and a value.
+2. You would call the key to get the values
+3. Could be used for data that requires a key and a value
