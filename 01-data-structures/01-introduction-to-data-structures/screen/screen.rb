@@ -8,30 +8,22 @@ class Screen
   def initialize(width, height)
     self.width = width
     self.height = height
-    self.matrix = []
+    self.matrix = Array.new(width, Array.new(height, nil))
   end
 
   # Insert a Pixel at x, y
   def insert(pixel, x, y)
-    self.matrix.push({pixel: pixel, x: x, y: y})
+    self.matrix[x][y] = pixel
   end
 
   def at(x, y)
-    if inbounds(x,y) == true
-      self.matrix.each do |m|
-        if m.has_value?(x) && m.has_value?(y)
-          return m[:pixel]
-        else
-          return nil
-        end
-      end
-    end
+    inbounds(x,y) ? self.matrix[x][y] : nil
   end
 
   private
 
   def inbounds(x, y)
-    ((x > width || x < 0) || (y > height || y < 0)) ? nil : true
+    ((x < width || x > 0) || (y < height || y > 0))
   end
 
 end

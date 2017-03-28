@@ -5,6 +5,6 @@ Line answers
 3. Could be used anytime you want to edit an ordered list.
 
 Pixel Answers
-1. It is much like a hash with a key and a value.
-2. You would call the key to get the values
-3. Could be used for data that requires a key and a value
+1. It is much like an array with arrays inside of it
+2. You would call the first array with the second array inside of it
+3. Could be used for data that requires anything with X and Y coordinates
