@@ -1,0 +1,21 @@
+1. Spatial Locality refers to how the data is stored in the memory.
+With an array the data is stored in consecutive memory locations therefore
+making it easy for the computer to find the next piece of stored data.
+2. Here's the data from my benchmarking.
+Overall it appears that Arrays are significantly faster compared to
+linked lists when the data is scaled.
+
+
+
+user     system      total        real
+array add    0.000000   0.000000   0.000000 (  0.000904)
+linked l_list add  0.000000   0.000000   0.000000 (  0.004366)
+user     system      total        real
+array find   0.000000   0.000000   0.000000 (  0.000003)
+linked l_list find  0.000000   0.000000   0.000000 (  0.000003)
+user     system      total        real
+array pop    0.000000   0.000000   0.000000 (  0.000003)
+linked l_list pop  0.000000   0.000000   0.000000 (  0.000501)
+user     system      total        real
+array shift  0.000000   0.000000   0.000000 (  0.000002)
+linked l_list shift  0.000000   0.000000   0.000000 (  0.000003)
