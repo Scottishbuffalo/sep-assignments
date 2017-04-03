@@ -46,6 +46,15 @@ RSpec.describe OpenAddressing, type: Class do
       expect(hash.size).to eq 2
     end
 
+      it "resizes the array when a collision occurs and hash is full" do
+       hash = OpenAddressing.new(4)
+       hash["key"] = "value"
+       expect(hash.size).to eq 4
+       hash["key"] = "second value"
+       hash["key"] = "third value"
+       expect(hash.size).to eq 4
+     end
+
     it "sets the value of key to value" do
       expect(star_wars_movies["Star Wars: The Phantom Menace"]).to eq "Number One"
       expect(star_wars_movies["Star Wars: Attack of the Clones"]).to eq "Number Two"
