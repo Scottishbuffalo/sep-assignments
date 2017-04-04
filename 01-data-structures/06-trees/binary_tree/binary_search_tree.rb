@@ -18,13 +18,14 @@ class BinarySearchTree
   def find(root, data)
     if root.nil? || data.nil?
       return nil
+    elsif root.title == data
+      return root
     else
-      if root.title == data
-        return root
-      elsif root.left != nil
-        find(root.left, data)
-      elsif root.right != nil
-        find(root.right, data)
+      target = find(root.right, data)
+      if target != nil
+        return target
+      else
+        return find(root.left, data)
       end
     end
   end
