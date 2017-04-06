@@ -36,5 +36,7 @@ Calculating a tip:
  -Spoon coffee from coffee grinder into bottom of French Press
  -Poor water from kettle into french press
  -Put lid back on french press
+ -Set timer for 4 minutes
  -Wait 4 minutes
  -Push down on top of french press until it reaches the bottom
+ 
