@@ -1,0 +1,40 @@
+Calculating a tip:
+ -Review the receipt
+ -Find the pre-tax amount prior to any discounts
+ -Take the value found in the previous step and move the decimal to the left one place.
+ -Double this number
+
+ Making Lemonade
+-Get water from refrigerator
+-Get sugar from cupboard
+-Mix water and sugar into saucepan
+-Bring water and sugar to boil
+-Set aside the water and sugar syrup
+-Get lemons
+-Roll lemons with hand
+-Cut lemons
+-Squeeze juice from lemons into cup
+-Get more water from refrigerator
+-Get Pitcher from refrigerator
+-Pour sugar water mixture into pitcher
+-Pour lemon juice into pitcher
+-Pour water into pitcher
+-Stir contents of pitcher
+
+ Make Coffee
+ -Get French Press from cupboard
+ -Remove lid
+ -Fill bottom with water to the fill line
+ -Poor water into Kettle
+ -Turn on stove
+ -When kettle whistles turn off stove
+ -Get coffee from cupboard
+ -Open coffee
+ -Get spoon from drawer
+ -Spoon coffee into coffee grinder
+ -Grind coffee
+ -Spoon coffee from coffee grinder into bottom of French Press
+ -Poor water from kettle into french press
+ -Put lid back on french press
+ -Wait 4 minutes
+ -Push down on top of french press until it reaches the bottom
