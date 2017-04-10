@@ -1,0 +1,25 @@
+                                  user     system      total        real
+poorly written ruby 250:       0.000000   0.000000   0.000000 (  0.008695)
+poorly written ruby 1k:        0.140000   0.000000   0.140000 (  0.139636)
+poorly written ruby 10K:      13.500000   0.000000  13.500000 ( 13.507077)
+poorly written ruby 100K:    1388.310000   3.720000 1392.030000 (1398.355675)
+
+well written ruby 250:         0.000000   0.000000   0.000000 (  0.000255)
+well written ruby 1k:          0.000000   0.000000   0.000000 (  0.001323)
+well written ruby 10K:         0.140000   0.000000   0.140000 (  0.140117)
+well written ruby 100K:        0.080000   0.000000   0.080000 (  0.076898)
+
+better written ruby 250:       0.000000   0.000000   0.000000 (  0.000128)
+better written ruby 1k:        0.000000   0.000000   0.000000 (  0.000500)
+better written ruby 10K:       0.000000   0.000000   0.000000 (  0.005949)
+better written ruby 100K:     0.070000   0.000000   0.070000 (  0.071612)
+
+best written ruby 250:         0.000000   0.000000   0.000000 (  0.000127)
+best written ruby 1k:          0.010000   0.000000   0.010000 (  0.000493)
+best written ruby 10K:         0.000000   0.000000   0.000000 (  0.006100)
+best written ruby 100K:        0.070000   0.000000   0.070000 (  0.072912)
+
+Poorly: O(2^N)
+Well: O(N)
+Better: O(logN)
+Best: O(logN
