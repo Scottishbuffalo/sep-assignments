@@ -6,7 +6,7 @@ end
 
 def nearest_neighbor(graph_of_cities, current_city)
   route = [current_city.name]
-  until graph_of_cities[0].nil?
+  until graph_of_cities.empty?
     next_city = graph_of_cities[0]
     graph_of_cities.each do |option|
       if distancer(current_city, next_city) > distancer(current_city, option)
